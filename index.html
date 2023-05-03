@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>Petshop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <header>
+        <br>
+        <img src="img/logo.png" class="logo">
+        <h3>Seja bem vindo ao petshop Ani+!</h3>
+        <p>Para deixar seu animal em segurança com a gente, precisamos de informações sobre você e o animal!</p>
+        <hr>
+    </header>
+    
+    <main>
+       <form>
+         <fieldset>
+            <legend>DONO</legend>
+            <br>
+            <label for="fname">Nome:</label><br>
+            <input type="text" placeholder="Fulano" id="fname" name="fname" value=""><br><br><br>
+            <label for="lname">Sobrenome:</label><br>
+            <input type="text" placeholder="de Tal" id="lname" name="lname" value=""><br><br><br>
+            <label for="phone">Celular:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="63-91234-5678" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" required><br><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email"placeholder="fulano@email.com" id="email" name="email" value=""><br><br><br><br>
+          </fieldset>
+          <hr>
+          <fieldset>
+            <legend>ANIMAL</legend>
+            <br>
+            <label for="fname">Nome:</label><br>
+            <input type="text" placeholder="Fulaninho" id="fname" name="fname" value=""><br><br><br>
+
+            <label for="fname">Raça:</label><br>
+            <input type="text" placeholder="Pitbull" id="raça" name="raça" value=""><br><br><br>
+
+            <label for="tamanho">Porte</label><br>
+            <select id="tamanho" name="tamanho">
+                <option value="Pequeno">Pequeno</option>
+                <option value="Medio">Medio</option>
+                <option value="Grande">Grande</option>
+                </select>
+
+            <br><br><br>
+            <label for="birthday">Data de nascimento:</label>
+            <h6>(Aproximadamente)</h6>
+            <input type="date" id="birthday" name="birthday"> <br><br><br>
+
+            <label>Detalhes especiais sobre o animal:</label><br><br>
+            <textarea name="message" rows="10" cols="30" placeholder="Tratamentos especiais, etc"></textarea>
+            <br><br><br><br>
+          
+            
+        
+          </fieldset>
+            <br><br><br>
+          <button type="button" onclick="alert('Formulario enviado!')">Enviar!</button>
+ 
+        </form>
+     </main> <hr>
+     <br><br><br><br><br><br><br>
+     
+    </div>
+</body>
+</html>

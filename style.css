@@ -1,0 +1,142 @@
+*{
+    color: #D8FFD3;
+}
+body{
+    background-image: url(img/wallpaper.jpg);
+}
+div{
+    margin-inline: 15%;
+    width: auto;
+    background-color:#008080 ;
+    border-radius: 30% 30% 0% 0%;
+    border-color: #083344 #083344 ;
+    border-style: dashed;
+    border-width: 10px;
+}
+header{
+   
+    width: auto;
+    background-color:#008080 ;
+    font-size: x-large;
+    font-style: oblique;
+    text-align: center;
+    border-radius: 30% 30% 0% 0%;
+    border-color: #083344 #083344 #008080;
+    border-style: dashed;
+    border-width: 10px;
+}
+img.logo{
+    display: block;
+    margin: 0 auto;
+    width:60%;
+    padding: 5%;
+}
+main{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: x-large;
+    text-align: center;
+  }
+input{
+    color: #083344;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #083344;
+    border-width: 3px;
+    font-size: large;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    outline: none;
+
+    
+}
+  input:focus {
+    border: 3px solid #CACE30;
+    width: 55%;
+    height: 70px;
+  }
+
+  textarea {
+    color: #083344;
+    font-size: large;
+    width: 60%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid;
+    border-color: #083344;
+    border-radius: 4px;
+    background-color: #D8FFD3;
+    resize: none;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    outline: none;
+  }
+  textarea:focus {
+    border: 3px solid #CACE30;
+    width: 65%;
+  }
+  select {
+    color: #083344;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #083344;
+    border-width: 3px;
+    font-size: large;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    outline: none;
+   
+  }
+  select:focus {
+    border: 3px solid #CACE30;
+    width: 55%;
+  }
+button{
+    width: 50%;
+    background-color: #CACE30;
+    border-radius: 10px;
+    color: #083344;
+    padding: auto;
+    text-decoration: none;
+    margin: 6px 4px;
+    cursor: pointer;
+    font-size: larger;
+    font-style: oblique;
+}
+
+
+  hr{
+    background-color: #CACE30;
+    height: 5px;
+    width: 85%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #CACE30;
+  }
+  fieldset {
+    background-color: #008080;
+    border-color: #083344;
+    border-radius: 10px;
+    border-width: thick;
+    box-shadow: 5px 10px 8px 10px #083344;
+    
+  }
+  
+  legend {
+    background-color: #083344;
+    color: #D8FFD3;
+    padding: 5px 10px;
+  }
+  
